@@ -1,5 +1,5 @@
-number1 = 5
-number2 = 10
+number1 = 10
+number2 = 5
 mysum = number1 + number2
 sub = number2 - number1
 mult = number1 * number2
