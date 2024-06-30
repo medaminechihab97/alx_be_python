@@ -1,5 +1,5 @@
 wheather = input("What's the weather like today? (sunny/rainy/cold):")
-if wheather == 'sunny':
+if wheather == "sunny" :
     print("Wear a t-shirt and sunglasses.")
 elif wheather=="rainy":
     print("Don't forget your umbrella and a raincoat.")
