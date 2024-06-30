@@ -4,18 +4,18 @@ time_bound = input("Is it time-bound? (yes/no): ")
 match priority:
     case "high":
         if time_bound == "yes":
-            note =(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
+            reminder =(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
         elif time_bound == "no":
-            note =(f"note: '{task}' is a {priority} priority task that requires immediate attention today!")
+            reminder =(f"note: '{task}' is a {priority} priority task that requires immediate attention today!")
     case "low":
         if time_bound == "yes":
-            note =(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
+            reminder =(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
         elif time_bound == "no":
-            note =(f"note: '{task}' is a {priority} priority task that requires immediate attention today!")
+            reminder =(f"note: '{task}' is a {priority} priority task that requires immediate attention today!")
     case "medium":
         if time_bound == "yes":
-            note =(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
+            reminder =(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
         elif time_bound == "no":
-            note =(f"note: '{task}' is a {priority} priority task that requires immediate attention today!")
+            reminder =(f"note: '{task}' is a {priority} priority task that requires immediate attention today!")
 
-print (note)
+print (reminder)
