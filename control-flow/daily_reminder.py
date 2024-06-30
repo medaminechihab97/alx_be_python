@@ -18,4 +18,4 @@ match priority:
         elif time_bound == "no":
             Reminder =(f"note: '{task}' is a {priority} priority task that requires immediate attention today!")
 
-print (Reminder)
+print (f"{Reminder}")
