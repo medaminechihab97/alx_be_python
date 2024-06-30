@@ -1,4 +1,4 @@
-wheather = input("What's the weather like today? (sunny/rainy/cold):").lower
+wheather = input("What's the weather like today? (sunny/rainy/cold):")
 if wheather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif wheather == "rainy":
