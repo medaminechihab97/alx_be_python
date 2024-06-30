@@ -1,1 +1,0 @@
-if\s+weather\s*==\s*['\"]sunny['\"]\s*:\s*print\s*\(\s*['\"]Wear a t-shirt and sunglasses\.['\"]\s*\)
