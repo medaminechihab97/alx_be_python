@@ -8,10 +8,10 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add)
     def test_subtraction(self):
         result = SimpleCalculator.subtract(5, 3)
-        self.assertEqual(self.calc.add) 
+        self.assertEqual(self.calc.subtract) 
     def test_multiplication(self):
         result = SimpleCalculator.multiply(5, 3)
-        self.assertEqual(self.calc.add)
+        self.assertEqual(self.calc.multiply)
     def test_division(self, a, b):
         assert b != 0, "Error: Division by zero!"
 
