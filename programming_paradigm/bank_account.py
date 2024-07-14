@@ -5,9 +5,9 @@ class BankAccount:
     def deposit(self, amount):
         # amount = int(input("Enter the amount to deposit: "))
         self.account_balance += amount
-    def withraw(self, amount, account_balance):
+    def withraw(self, amount):
         # amount = int(input("Enter the amount to withdraw: "))
-        if account_balance >= amount:
+        if self.account_balance >= amount:
             
             account_balance -= amount
             return True
