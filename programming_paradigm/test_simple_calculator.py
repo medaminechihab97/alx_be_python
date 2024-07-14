@@ -14,4 +14,5 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(result, 15)
     def test_division_positive(self, a, b):
         assert b != 0, "Error: Division by zero!"
-        
+
+    SimpleCalculator()
