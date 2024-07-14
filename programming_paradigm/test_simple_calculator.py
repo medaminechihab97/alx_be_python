@@ -14,5 +14,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply)
     def test_division(self, a, b):
         assert b != 0, "Error: Division by zero!"
+    def test_division(self):
+        self.assertEqual(self.calc.divide)
 
     SimpleCalculator()
