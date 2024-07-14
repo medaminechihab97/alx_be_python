@@ -6,13 +6,13 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_addition(self):
         result = SimpleCalculator.add(5, 3)
         self.assertEqual(self.calc.add)
-    def test_subtract_positive(self):
+    def test_subtraction(self):
         result = SimpleCalculator.subtract(5, 3)
-        self.assertEqual(result, 2) 
-    def test_multiplication_positive(self):
+        self.assertEqual(self.calc.add) 
+    def test_multiplication(self):
         result = SimpleCalculator.multiply(5, 3)
-        self.assertEqual(result, 15)
-    def test_division_positive(self, a, b):
+        self.assertEqual(self.calc.add)
+    def test_division(self, a, b):
         assert b != 0, "Error: Division by zero!"
 
     SimpleCalculator()
