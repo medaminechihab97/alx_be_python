@@ -6,7 +6,7 @@ class Shape:
         raise NotImplementedError ("derived classes need to override this method.")
 class Rectangle(Shape):
     def __init__(self, length, width):
-        super().__init__(length , width)
+        super().__init__()
         self.length = length
         self.width = width
     def area(self):
@@ -14,7 +14,7 @@ class Rectangle(Shape):
     
 class Circle(Shape):
     def __init__(self, radius):
-        super().__init__(radius)
+        super().__init__()
         self.radius = radius
 
     def area(self):
